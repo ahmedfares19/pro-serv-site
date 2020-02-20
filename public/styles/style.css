@@ -1,0 +1,14 @@
+@import './bass/__settings.css';
+@import './bass/__animate.css';
+@import './bass/__normalize.css';
+@import './bass/__bass.css';
+@import './bass/__loader.css';
+@import './components/__nav.css';
+@import './components/__carsoules.css';
+@import './components/__about-us.css';
+@import './components/__out-clients.css';
+@import './components/__our-services.css';
+@import './components/__GM-word.css'; 
+@import './components/_social-media-side-bar.css';
+@import './components/_to-the-top.css';
+@import './components/__messanger-client.css';

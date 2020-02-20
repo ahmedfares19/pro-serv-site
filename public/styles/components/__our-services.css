@@ -1,0 +1,97 @@
+.our-services{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: var(--mr-size);
+}
+
+.our-services__body{
+    width: 100%;
+}
+.service-card{
+    border: none;
+    padding: 0;
+    max-width: 300px;
+    background-color: #fff;
+    /* border: 1px solid #eee; */
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding-bottom: 25px;
+    min-width: 300px;
+    margin: 50px 0;
+}
+.service-card:hover {
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+    transform: scale(1.06);
+}
+
+@keyframes shadow-btn {
+    0%{
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    60%{
+        box-shadow: 0 16px 30px rgba(0,0,0,0.27), 0 12px 12px rgba(0,0,0,0.24);
+    }
+    100%{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+}
+
+.sercive-card__img{
+    margin: 0;
+    width: 300px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.sercive-card__title {
+    font-size: var(--l-size);
+    text-align: center;
+    font-family: var(--h-font);
+}
+.service-card__paragraph {
+    padding: 0 var(--s-size);
+    margin-bottom: var(--xl-size);
+    font-size: var(--xs-size);
+    /* font-weight: 200; */
+    text-align: center;
+    font-family: var(--b-font);
+}
+.service-card__btn {
+    display: block;
+    padding:0.6rem;
+    max-width: 150px;
+
+    background-color: var(--green-color);
+    text-align: center;
+    color: white;
+    font-size: var(--s-size);
+    margin:auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.service-card__btn:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(105, 228, 158);
+}
+.our-services__head{
+    width: 100%;
+    text-align: center;
+}
+
+.our-services__header{
+    font-size: var(--xl-size);
+    font-family: var(--h-font);
+    color: var(--darker-color);
+    margin: 0;
+}
+.our-services__sub-header{
+    font-size: var(--m-size);
+    font-family: var(--h-font);
+    color: var(--dark-color);
+    margin-top: 2px;
+}

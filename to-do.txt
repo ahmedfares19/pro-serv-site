@@ -1,0 +1,6 @@
+--- image otimaization
+--- spacing
+--- out clients darken
+--- to the top
+--- resposive for two sizes tablet/mobile
+------- mobile size 
