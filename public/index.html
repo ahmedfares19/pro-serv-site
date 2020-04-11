@@ -32,26 +32,30 @@
   </head>
   <body>
     <!-- messages -->
-    <!-- <div class="messanger">
+    <div class="messanger">
       <div class="messanger__header">
-        <h1>Send a message</h1>
+        <h1>Send a message <span id="msg_num">1</span></h1>
+        
+        <i class="far fa-window-minimize"></i>  
       </div>
       <div class="messanger__body">
         <form>
           <label>Your Email</label>
-          <input type="text" name="email">
+          <input required type="email" name="email">
           <label>Your Name</label>
-          <input type="text" name="name">
+          <input required type="text" name="name">
           <label>Your Phone</label>
-          <input type="text" name="phone">
+          <input  required type="text" name="phone">
           <label>What is your Question ?</label>
-          <textarea></textarea>
-          <button id="message__cancel">Cancel</button>
-          <button type="submit">Chat Now</button>
+          <textarea required></textarea>
+          <div class="message__body__buttons">
+            <button type="reset" id="message__cancel">Cancel</button>
+            <button type="submit">Chat Now</button>
+          </div>
         </form>
       </div>
     </div>
-    <div class="messanger">
+    <!-- <div class="messanger">
       <div class="messanger__header">
         <h1>Send a message</h1>
       </div>
@@ -384,6 +388,15 @@
 
     <!-- contact start -->
     <div class="section contact full_width">
+      <div class="contacts">
+        <div class="social_media"></div>
+        <div class="send_msg">
+          <form>
+            <input placeholder="email">
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
       <div id="google_maps">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.6191835664076!2d31.75399658503559!3d30.295260031791713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1457fd97333c79c7%3A0x616207f91e23c9f0!2z2YXYrNin2YjYsdmHIDIz2Iwg2YXYrdin2YHYuNipINin2YTZgtin2YfYsdip4oCs!5e1!3m2!1sar!2seg!4v1581784279976!5m2!1sar!2seg"
@@ -393,10 +406,6 @@
           style="border:0;"
           allowfullscreen=""
         ></iframe>
-      </div>
-      <div class="contacts">
-        <div class="social_media"></div>
-        <div class="send_msg"></div>
       </div>
     </div>
     <!-- contacts end  -->
@@ -486,6 +495,7 @@
 
     <script src="./js/components/social-media.js"></script>
     <script src="./js/components/to-the-top.js"></script>
+    <script src="./js/components/message-registe.js"></script>
     <script>
       $(".owl-carousel").owlCarousel({
         rtl: true,
