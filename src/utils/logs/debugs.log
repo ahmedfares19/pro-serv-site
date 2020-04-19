@@ -8526,3 +8526,13 @@ serveLandingPage called
 serveLandingPage called
 
 *****************************************************
+
+[ debug level ]
+LOG ID :  [ fcf93510-824b-11ea-8366-2bccc9645c50 ]
+TIME :  Sun Apr 19 2020 16:42:26 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+server is up on port 4000
+[ console data ]
+server is up on http://localhost:4000
+
+*****************************************************
