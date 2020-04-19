@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+/* const mongoose = require("mongoose");
 const env = require("../../env");
 const DB_NAME = env.DB_NAME;
 const PORT = env.DB_PORT;
@@ -32,3 +32,4 @@ const connection = () => {
 };
 
 connection();
+ */
