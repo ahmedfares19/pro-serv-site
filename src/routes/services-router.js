@@ -88,8 +88,5 @@ router.get('/legal-service' , legalService)
 router.get('/monitors' , monitors)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
-router.get('/', (req,res)=>{
-res.send('working')
-})
 
 module.exports = router;

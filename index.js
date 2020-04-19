@@ -26,6 +26,10 @@ app.use(express.static(path.join(__dirname, 'public')))
 // });
 const PORT = process.env.PORT || 4000;
 
+app.get('/',(req,res) => {
+    res.send('test done')
+})
+
 app.listen(PORT,()=>{
     console.log("http://localhost:4000");
 })
