@@ -16,11 +16,16 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 app.set('views', path.join(__dirname , 'public'))
 app.use(express.static(path.join(__dirname, 'public')))
-PORT = process.env.PORT || 5000
-app.listen(PORT, () => {
-  appLoger.debug(
-    "server is up on port " + env.SERVER_PORT,
-    "debug",
-    "server is up on http://localhost:" + env.SERVER_PORT
-  );
-});
+// PORT = process.env.PORT || 5000
+// app.listen(PORT, () => {
+//   appLoger.debug(
+//     "server is up on port " + env.SERVER_PORT,
+//     "debug",
+//     "server is up on http://localhost:" + env.SERVER_PORT
+//   );
+// });
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT,()=>{
+    console.log("http://localhost:4000");
+})
