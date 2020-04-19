@@ -1,6 +1,105 @@
-.contact{
+.contact {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 70px;
+    flex-direction: column;
+    padding-top: var(--xl-size);
+    padding-bottom: var(--xl-size);
+    margin-top: var(--mr-size);
+    background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.8) 0% , rgba(255, 255, 255, 0.8)), url('../../imgs/lg/others/contact_us.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.contact__head{
+    width: 100%;
+    text-align: center;
+    margin-bottom:var(--xxl-size);;
+}
+
+.contact__header{
+    font-size: var(--xl-size);
+    font-family: var(--h-font);
+    color: var(--darker-color);
+    margin: 0;
+}
+.contact__sub-header{
+    font-size: var(--m-size);
+    font-family: var(--h-font);
+    color: var(--dark-color);
+    margin-top: 2px;
+}
+
+.contact__body {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.proServ-details {
+   
+    border: 1px solid rgba(172, 172, 172, 0.548);
+    padding: var(--s-size);
+    border-radius: var(--xs-size);
+}
+.proServ-details .title{
+    font-size: var(--s-size);
+    color: var(--darker-color);
+    display: inline;
+}
+.proServ-details .data{
+    font-size: var(--xs-size);
+    color: var(--dark-color);
+    display: inline;
+    letter-spacing: 1px;
+}
+
+#google_maps iframe{
+    border-radius: var(--xs-size);
+}
+
+.contacts{
+    width: 50%;
+    display: flex;
+   flex-direction: column;
+}
+
+.send_msg{
+    padding: var(--l-size);
+    background-color: #fff;
+    font-weight: bold;
+    width: 350px;
+    align-self: center;
+    border-radius: var(--xs-size);
+    margin-top: var(--xl-size);
+    
+}
+
+.send_msg .form_labol {
+    font-size: var(--xs-size);
+    color: var(--darker-color);
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.send_msg .email{
+    display: block;
+    width: 100%;
+    font-size: var(--xs-size);
+    color: var(--dark-color);
+    padding: 4px;
+}
+
+.send_msg .submit{
+    display: block;
+    width: 50%;
+    margin:auto;
+    margin-top: var(--s-size);
+    font-size: var(--xs-size);
+    background: var(--red-color);
+    color:#fff;
+    border: none;
+    padding: 4px;
+    border-radius: var(--xs-size);
 }

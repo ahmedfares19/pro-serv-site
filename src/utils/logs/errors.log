@@ -1,0 +1,350 @@
+
+[ error level ]
+LOG ID :  [ 5bc55710-7c32-11ea-9f4c-51379de205fd ]
+TIME :  Sat Apr 11 2020 22:23:51 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+server is up on port 4000
+[ console data ]
+server is up on http://localhost:4000
+
+[ error level ]
+LOG ID :  [ 60553f70-7c32-11ea-a77c-73ec9358dace ]
+TIME :  Sat Apr 11 2020 22:23:59 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+server is up on port 4000
+[ console data ]
+server is up on http://localhost:4000
+
+[ error level ]
+LOG ID :  [ 32e4df00-7c41-11ea-8300-3925dc6dcff7 ]
+TIME :  Sun Apr 12 2020 00:10:05 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: index is not defined
+[ console data ]
+index is not defined
+
+[ error level ]
+LOG ID :  [ 555c4410-7c41-11ea-a779-9719475c8ad6 ]
+TIME :  Sun Apr 12 2020 00:11:03 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: index is not defined
+[ console data ]
+index is not defined
+
+[ error level ]
+LOG ID :  [ 56319570-7c41-11ea-a779-9719475c8ad6 ]
+TIME :  Sun Apr 12 2020 00:11:04 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: index is not defined
+[ console data ]
+index is not defined
+
+[ error level ]
+LOG ID :  [ 835118f0-7c41-11ea-a779-9719475c8ad6 ]
+TIME :  Sun Apr 12 2020 00:12:20 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: index is not defined
+[ console data ]
+index is not defined
+
+[ error level ]
+LOG ID :  [ 11aa7150-7c42-11ea-a79c-dff14745df95 ]
+TIME :  Sun Apr 12 2020 00:16:19 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: path must be absolute or specify root to res.sendFile
+[ console data ]
+path must be absolute or specify root to res.sendFile
+
+[ error level ]
+LOG ID :  [ 15a397f0-7c42-11ea-818f-75dc33df9652 ]
+TIME :  Sun Apr 12 2020 00:16:26 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: path must be absolute or specify root to res.sendFile
+[ console data ]
+path must be absolute or specify root to res.sendFile
+
+[ error level ]
+LOG ID :  [ 17a868a0-7c42-11ea-818f-75dc33df9652 ]
+TIME :  Sun Apr 12 2020 00:16:29 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: path must be absolute or specify root to res.sendFile
+[ console data ]
+path must be absolute or specify root to res.sendFile
+
+[ error level ]
+LOG ID :  [ 33b754c0-7c42-11ea-95fa-3fe987d4e87f ]
+TIME :  Sun Apr 12 2020 00:17:16 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: path must be absolute or specify root to res.sendFile
+[ console data ]
+path must be absolute or specify root to res.sendFile
+
+[ error level ]
+LOG ID :  [ 478e8630-7c42-11ea-b662-8f9548c2b8f9 ]
+TIME :  Sun Apr 12 2020 00:17:49 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: Cannot find module 'html'
+Require stack:
+- H:\projects\proServ\pro-serv\node_modules\express\lib\view.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\application.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\express.js
+- H:\projects\proServ\pro-serv\node_modules\express\index.js
+- H:\projects\proServ\pro-serv\index.js
+[ console data ]
+Cannot find module 'html'
+Require stack:
+- H:\projects\proServ\pro-serv\node_modules\express\lib\view.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\application.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\express.js
+- H:\projects\proServ\pro-serv\node_modules\express\index.js
+- H:\projects\proServ\pro-serv\index.js
+
+[ error level ]
+LOG ID :  [ 486ed410-7c42-11ea-b662-8f9548c2b8f9 ]
+TIME :  Sun Apr 12 2020 00:17:51 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: Cannot find module 'html'
+Require stack:
+- H:\projects\proServ\pro-serv\node_modules\express\lib\view.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\application.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\express.js
+- H:\projects\proServ\pro-serv\node_modules\express\index.js
+- H:\projects\proServ\pro-serv\index.js
+[ console data ]
+Cannot find module 'html'
+Require stack:
+- H:\projects\proServ\pro-serv\node_modules\express\lib\view.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\application.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\express.js
+- H:\projects\proServ\pro-serv\node_modules\express\index.js
+- H:\projects\proServ\pro-serv\index.js
+
+[ error level ]
+LOG ID :  [ 4f4996d0-7c42-11ea-99ca-b5c6ff57ce8a ]
+TIME :  Sun Apr 12 2020 00:18:02 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 503ecc40-7c42-11ea-99ca-b5c6ff57ce8a ]
+TIME :  Sun Apr 12 2020 00:18:04 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 97c9ec20-7c42-11ea-99ca-b5c6ff57ce8a ]
+TIME :  Sun Apr 12 2020 00:20:04 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 455530a0-7c45-11ea-99ca-b5c6ff57ce8a ]
+TIME :  Sun Apr 12 2020 00:39:14 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 4a6f7eb0-7c45-11ea-bb91-cbb4d732c98f ]
+TIME :  Sun Apr 12 2020 00:39:23 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 5d7a3860-7c45-11ea-be40-f71848fb86f8 ]
+TIME :  Sun Apr 12 2020 00:39:55 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 60639cb0-7c45-11ea-be40-f71848fb86f8 ]
+TIME :  Sun Apr 12 2020 00:39:59 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 7807b4a0-7c45-11ea-94ff-5b9755a13e78 ]
+TIME :  Sun Apr 12 2020 00:40:39 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 7ee50f70-7c45-11ea-aae8-0773be412128 ]
+TIME :  Sun Apr 12 2020 00:40:51 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 8bde97f0-7c45-11ea-8ecf-dbe1688646c3 ]
+TIME :  Sun Apr 12 2020 00:41:12 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+Error: No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 96ef6340-7c45-11ea-9445-7549a1cf6dcf ]
+TIME :  Sun Apr 12 2020 00:41:31 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+Error: No default engine was specified and no extension was provided.
+
+[ error level ]
+LOG ID :  [ 977cd630-7c45-11ea-aeda-899be84ff817 ]
+TIME :  Sun Apr 12 2020 00:41:32 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+Error: No default engine was specified and no extension was provided.,serveLandingPage
+
+[ error level ]
+LOG ID :  [ a0f8f7c0-7c45-11ea-aeda-899be84ff817 ]
+TIME :  Sun Apr 12 2020 00:41:48 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+Error: No default engine was specified and no extension was provided.,serveLandingPage
+
+[ error level ]
+LOG ID :  [ a936a5e0-7c45-11ea-8d8d-cd63887f19d1 ]
+TIME :  Sun Apr 12 2020 00:42:02 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+Error: No default engine was specified and no extension was provided.,serveLandingPage
+
+[ error level ]
+LOG ID :  [ 0895a040-7c46-11ea-84f4-9b3379f35e52 ]
+TIME :  Sun Apr 12 2020 00:44:42 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: No default engine was specified and no extension was provided.
+[ console data ]
+Error: No default engine was specified and no extension was provided.,serveLandingPage
+
+[ error level ]
+LOG ID :  [ 266faf70-7c46-11ea-866c-cf84bcba60cf ]
+TIME :  Sun Apr 12 2020 00:45:32 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+Error: Cannot find module 'html'
+Require stack:
+- H:\projects\proServ\pro-serv\node_modules\express\lib\view.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\application.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\express.js
+- H:\projects\proServ\pro-serv\node_modules\express\index.js
+- H:\projects\proServ\pro-serv\index.js
+[ console data ]
+Error: Cannot find module 'html'
+Require stack:
+- H:\projects\proServ\pro-serv\node_modules\express\lib\view.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\application.js
+- H:\projects\proServ\pro-serv\node_modules\express\lib\express.js
+- H:\projects\proServ\pro-serv\node_modules\express\index.js
+- H:\projects\proServ\pro-serv\index.js,serveLandingPage
+
+[ error level ]
+LOG ID :  [ f034b5a0-7cc1-11ea-8207-afc73fc90f16 ]
+TIME :  Sun Apr 12 2020 15:31:38 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+server is up on port 4000
+[ console data ]
+server is up on http://localhost:4000
+
+[ error level ]
+LOG ID :  [ c54b9630-7e9a-11ea-8bcc-f1adcf282156 ]
+TIME :  Tue Apr 14 2020 23:56:18 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: err is not defined
+[ console data ]
+ReferenceError: err is not defined
+
+[ error level ]
+LOG ID :  [ e7935fc0-7e9a-11ea-9ac3-3d04699b2dcc ]
+TIME :  Tue Apr 14 2020 23:57:16 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: object is not defined
+[ console data ]
+ReferenceError: object is not defined
+
+[ error level ]
+LOG ID :  [ ecfeb400-7e9a-11ea-b7a8-75d3de4b9ad1 ]
+TIME :  Tue Apr 14 2020 23:57:25 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: Ap is not defined
+[ console data ]
+ReferenceError: Ap is not defined
+
+[ error level ]
+LOG ID :  [ eecd5980-7e9a-11ea-a9c3-5de6bf404be5 ]
+TIME :  Tue Apr 14 2020 23:57:28 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: Cannot read property 'bold' of undefined
+[ console data ]
+TypeError: Cannot read property 'bold' of undefined
+
+[ error level ]
+LOG ID :  [ f0337930-7e9a-11ea-a0fd-47f58ae95849 ]
+TIME :  Tue Apr 14 2020 23:57:30 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: Cannot read property 'bold' of undefined
+[ console data ]
+TypeError: Cannot read property 'bold' of undefined
+
+[ error level ]
+LOG ID :  [ 0206eb60-7e9b-11ea-9dae-75b388f8272e ]
+TIME :  Tue Apr 14 2020 23:58:00 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: Cannot read property 'bold' of undefined
+[ console data ]
+TypeError: Cannot read property 'bold' of undefined
+
+[ error level ]
+LOG ID :  [ 04794af0-7e9b-11ea-b5a6-ebc52da6407a ]
+TIME :  Tue Apr 14 2020 23:58:04 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: Cannot read property 'bold' of undefined
+[ console data ]
+TypeError: Cannot read property 'bold' of undefined
+
+[ error level ]
+LOG ID :  [ 05382e20-7e9b-11ea-bcbd-79277b08f382 ]
+TIME :  Tue Apr 14 2020 23:58:06 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+TypeError: Cannot read property 'bold' of undefined
+[ console data ]
+TypeError: Cannot read property 'bold' of undefined
+
+[ error level ]
+LOG ID :  [ bfd17f70-7e9b-11ea-99b0-2bdf87dedf2c ]
+TIME :  Wed Apr 15 2020 00:03:19 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+ReferenceError: databaseName is not defined
+[ console data ]
+databaseName is not defined
+
+[ error level ]
+LOG ID :  [ 25dc6460-7e9c-11ea-bd19-5b45d2e96dc3 ]
+TIME :  Wed Apr 15 2020 00:06:10 GMT+0200 (Eastern European Standard Time)
+[ debug data ]
+failed to connect database >>  database name proServDB 
+ error : MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+[ console data ]
+failed to connect database >>  database name proServDB 
+ error : MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017

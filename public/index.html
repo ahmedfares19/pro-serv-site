@@ -33,9 +33,9 @@
   <body>
     <!-- messages -->
     <div class="messanger">
-      <div class="messanger__header">
+      <div class="messanger__header">      
         <h1>Send a message <span id="msg_num">1</span></h1>
-        
+          
         <i class="far fa-window-minimize"></i>  
       </div>
       <div class="messanger__body">
@@ -101,25 +101,25 @@
           <ul id="navgation" class="navbar-nav">
             
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/"
                 >Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Our Services</a>
               <ul class="dp">
-                <li><a href="#">Social Insurance</a></li>
-                <li><a href="#">Manpower and Foreign Labor Affairs</a></li>
-                <li><a href="#">Outsourcing</a></li>
-                <li><a href="#">Recruitment</a></li>
-                <li><a href="#">Proserv Training Academy</a></li>
-                <li><a href="#">HR Systems & Procedures</a></li>
-                <li><a href="#">Legal Services</a></li>
-                <li><a href="#">Monitors</a></li>
-                <li><a href="#">Printers</a></li>
+                <li><a href="social-insurence-service">Social Insurance</a></li>
+                <li><a href="manpower-and-foreign-labor-affairs">Manpower and Foreign Labor Affairs</a></li>
+                <li><a href="outsourcing">Outsourcing</a></li>
+                <li><a href="recruitment">Recruitment</a></li>
+                <li><a href="proserv-training-academy">Proserv Training Academy</a></li>
+                <li><a href="hr-systems-procedures">HR Systems & Procedures</a></li>
+                <li><a href="legal-service">Legal Services</a></li>
+                <li><a href="monitors">Monitors</a></li>
+                <li><a href="printers">Printers</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="bog">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -388,31 +388,52 @@
 
     <!-- contact start -->
     <div class="section contact full_width">
-      <div class="contacts">
-        <div class="social_media"></div>
-        <div class="send_msg">
-          <form>
-            <input placeholder="email">
-            <button>Send</button>
-          </form>
+      <div class="section__data contact__head">
+        <h1 class="contact__header">Contact</h1>
+        <h2 class="contact__sub-header">We're here to help you and answer any question you might have.<br>Looking forward to hearing from you &#128522</h2>
+      </div>
+        <div class=" section contact__body wrapper">
+          <div class="contacts">
+            <div class="proServ-details">
+              <h3 class="title">Address: </h3>
+              <h3 class="data"> 1/5 El- Gazayeer St,
+                New Maadi,Cairo,
+                Egypt</h3><br><br>
+              <h3 class="title">Email: </h3>
+              <h3 class="data">info@proserv-eg.com</h3><br><br>
+              <h3 class="title">Phone: </h3>
+              <h3 class="data">(+202) 27041421</h3><br><br>
+              <h3 class="title">Mobile: </h3>
+              <h3 class="data">(+2) 01100901453 , 
+                (+2) 01151566656</h3><br><br>
+                <h3 class="title">Fax: </h3>
+              <h3 class="data">(+202) 27041421</h3>
+            </div>
+
+            <div class="send_msg">
+              <form>
+                <label class="form_labol">Get Our Updates</label>
+                <input class="email" type="email" required placeholder="your email">
+                <input class="submit"type="submit">
+              </form>
+            </div>
+          </div>
+          <div id="google_maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.6191835664076!2d31.75399658503559!3d30.295260031791713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1457fd97333c79c7%3A0x616207f91e23c9f0!2z2YXYrNin2YjYsdmHIDIz2Iwg2YXYrdin2YHYuNipINin2YTZgtin2YfYsdip4oCs!5e1!3m2!1sar!2seg!4v1581784279976!5m2!1sar!2seg"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+            ></iframe>
+          </div>
         </div>
-      </div>
-      <div id="google_maps">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.6191835664076!2d31.75399658503559!3d30.295260031791713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1457fd97333c79c7%3A0x616207f91e23c9f0!2z2YXYrNin2YjYsdmHIDIz2Iwg2YXYrdin2YHYuNipINin2YTZgtin2YfYsdip4oCs!5e1!3m2!1sar!2seg!4v1581784279976!5m2!1sar!2seg"
-          width="600"
-          height="450"
-          frameborder="0"
-          style="border:0;"
-          allowfullscreen=""
-        ></iframe>
-      </div>
     </div>
     <!-- contacts end  -->
 
     <!-- our vision stat -->
     <div class="section our_vision wrapper">
-      <img />
       <div id="our_vision_body">
         <h1>Our Vision</h1>
         <p>
@@ -434,40 +455,58 @@
           thing.
         </p>
       </div>
+      <img class="our_vision__img" src="./imgs/lg/our_vision.png" />
     </div>
     <!-- our vision end -->
 
     <!-- footer start -->
-    <footer>
-      <div class="contacts">
-        <div class="contacts_social-media"></div>
-        <div class="contacts_send_msg"></div>
+    <footer class="full_width">
+      <div  class="footer-wrapper">
+        <div class="footer-logo">
+          <img width="75px" src="./imgs/sm/logo.png"/>
+         </div>
+         <div class="footer-content">
+          <div class="footer__about-us ">
+            <h1 class="footer__title">About Professional Services</h1>
+            <p>
+              Professional Service (Proserv) has been leading the Human Resources
+              services market since 2010. Serving more than 600 multinational,
+              governmental and domestic businesses and entities all over the region.
+            </p>
+          </div>
+          <div>
+            <h1 class="footer__title">Our Social Media</h1>
+            <div class="social-links">
+              <div class="social-item">  <i class="fab fa-facebook-f"></i></div>
+            <div  class="social-item"> <i class="fab fa-twitter"></i></h1></div>
+             <div  class="social-item">  <i class="fab fa-linkedin-in"></i></div>
+            <div  class="social-item">    <i class="fab fa-google"></i></div>
+          
+            </div>
+          </div>
+          <div class="footer__hyprtLinks">
+            <h1 class="footer__title">HyperLinks</h1>
+            <ul class="hyprtLinks-list">
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="blog">Blog</a></li>
+              <li><a href="#">Contacts</a></li>
+              <li><a href="#">Ar</a></li>
+            </ul>
+          </div>
+          
+          <div class="send_msg">
+            <form>
+              <label class="form_labol">Get Our Updates</label>
+              <input class="email" type="email" required placeholder="your email">
+              <input class="submit"type="submit">
+            </form>
+          </div>
+         </div>
       </div>
-      <div>
-        <h1>About Professional Services</h1>
-        <p>
-          Professional Service (Proserv) has been leading the Human Resources
-          services market since 2010. Serving more than 600 multinational,
-          governmental and domestic businesses and entities all over the region.
-          Proserv has been tackling business challenges that faced its partners’
-          day-to-day work while believing in mutual benefit and service
-          excellence as a core value. We also believe that partners satisfaction
-          is the roadmap to our success. Proserv’s vast experience is gained
-          through real-life well planned business practices, hard work and
-          dedication. We put our team at the tip of your finger as in Proserv
-          “You always come first” We are always enthusiastic, taking
-          initiatives. We believe in relationships, not just doing business. We
-          value teamwork, realizing that we are stronger together than as
-          individuals. We take seriously the promises we make. We are passionate
-          and driven to excel. With us it has never been about being the
-          biggest. It has always been about being the best and doing the right
-          thing.
-        </p>
-      </div>
-      <div>
-        <ul>
-          <li>f</li>
-        </ul>
+      <div class="copy-rights">
+        <h4>&copy Copyright 2020-2025</h4>
+        <h5>All rights resevered. Powered by the <a href="#">Professional Services</a></h5>
       </div>
     </footer>
 

@@ -13,3 +13,8 @@
 @import './components/_to-the-top.css';
 @import './components/__messanger-client.css';
 @import './components/__contact.css';
+@import './components/__our_vision.css';
+@import './components/__footer.css';
+@import './components/__services-hero.css';
+@import './admin/__admin-login.css';
+@import './massenger/massanger-chat.css'
