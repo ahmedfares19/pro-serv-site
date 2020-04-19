@@ -90,7 +90,7 @@ router.get('/monitors' , monitors)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
 router.get('/env',(req,res) => {
-    res.send(process.env.Name || "not found")
+    res.send(__dirname)
 })
 
 module.exports = router;
