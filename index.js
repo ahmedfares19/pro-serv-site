@@ -16,7 +16,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 app.set('views', path.join(__dirname , 'public'))
 app.use(express.static(path.join(__dirname, 'public')))
-port = process.env.PORT || 80
+port = process.env.PORT || 5000
 app.listen(port, () => {
   appLoger.debug(
     "server is up on port " + env.SERVER_PORT,
