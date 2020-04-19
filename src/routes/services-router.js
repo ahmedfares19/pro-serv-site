@@ -88,5 +88,8 @@ router.get('/legal-service' , legalService)
 router.get('/monitors' , monitors)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
+router.get('/env',(req,res) => {
+    res.send(process.env.Name || "not found")
+})
 
 module.exports = router;
