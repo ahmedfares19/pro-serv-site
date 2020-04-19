@@ -3,7 +3,7 @@ const pageRouter = require("./src/routes/services-router");
 const blogRouter = require("./src/routes/blog-router");
 const appLoger = require("./src/utils/app-logger");
 const app = express();
-const env = require("./env");
+// const env = require("./env");
 const path = require('path')
 app.use(pageRouter);
 app.use(blogRouter);
