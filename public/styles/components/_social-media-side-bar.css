@@ -39,6 +39,37 @@
 .social-media-item:nth-child(4){
     color: rgba(66, 134, 244, 0.89);
 } */
+
+
+
+.social-media-itema a i{
+    color:#BB3B5F;
+}
+
+.social-media-item:nth-child(1):hover a{
+
+    color: rgb(0, 58, 173);
+}
+.social-media-item:nth-child(2):hover a{
+    width: 80px;
+    position: relative;
+    animation: pop-up 0.4s ease-out forwards;
+    color: #1DA1F2;
+}
+.social-media-item:nth-child(3):hover a{
+    width: 80px;
+    position: relative;
+    animation: pop-up 0.4s ease-out forwards;
+    color: #0077B5;
+}
+.social-media-item:nth-child(4):hover a{
+    width: 80px;
+    position: relative;
+    animation: pop-up 0.4s ease-out forwards;
+    color: #E1294D;
+}
+
+
 .social-media-item:nth-child(1):hover{
     width: 80px;
     position: relative;
