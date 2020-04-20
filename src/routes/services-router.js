@@ -89,8 +89,20 @@ router.get('/legal-service' , legalService)
 router.get('/monitors' , monitors)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
-router.get('/env',(req,res) => {
-    res.send(__dirname)
+
+const fs = require('fs')
+
+router.get('/env', async (req,res) => {
+    if(!fs.existsSync(path.join(__dirname ,"test.txt"))){
+        fs.writeFileSync(path.join(__dirname ,"test.txt"), "test ")
+        res.send('done')
+    } else 
+    {
+        fs.appendFileSync(path.join(__dirname ,"test.txt") , " append")
+        fs.readFile(path.join(__dirname ,"test.txt"), (err, data) => {
+            res.send(data.toString())
+        })
+    }
 })
 
 module.exports = router;
