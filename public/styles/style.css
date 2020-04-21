@@ -17,4 +17,6 @@
 @import './components/__footer.css';
 @import './components/__services-hero.css';
 @import './admin/__admin-login.css';
-@import './massenger/massanger-chat.css'
+@import './massenger/massanger-chat.css';
+@import './responsive/__responsive-desktop.css';
+@import './responsive/__responsive-tablet.css';
