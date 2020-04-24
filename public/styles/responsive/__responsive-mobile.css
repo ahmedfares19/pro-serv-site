@@ -201,4 +201,7 @@
   .copy-rights {
     margin-top: var(--l-size);
   }
+  .our_vision__img{
+    width: 100%;
+  }
 }
