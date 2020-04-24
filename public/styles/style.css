@@ -20,3 +20,4 @@
 @import './massenger/massanger-chat.css';
 @import './responsive/__responsive-desktop.css';
 @import './responsive/__responsive-tablet.css';
+@import './responsive/__responsive-mobile.css'
