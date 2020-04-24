@@ -27,6 +27,11 @@
     transform: translateY(-80%);
   
   }
+  #navgation{
+    position: relative;
+    transform: translateX(40%);
+  }
+  
 }
 
 

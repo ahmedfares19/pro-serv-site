@@ -27,12 +27,19 @@
     box-shadow: 5px 15px 20px rgba(139, 139, 139, 0.363);
   }
   #navbarNav ul {
+    text-align: center;
     margin: 10px auto;
+    margin: auto;
   }
   #navbarNav ul li {
     margin-left: 0;
     padding: 20px auto;
+    
     border-bottom: 1px solid rgba(201, 197, 197, 0.2);
+  }
+  #navgation{
+    position: relative;
+    transform: translateX(0%);
   }
   .wrapper {
     width: 90%;
@@ -186,10 +193,10 @@
     display: block;
     margin-top: -20px;
   }
-  .hyprtLinks-list li{
-      display: inline-block;
-      padding: 0 5px;
-      text-decoration: none;
+  .hyprtLinks-list li {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
   }
   .footer-sndMsg {
     display: block;
@@ -201,7 +208,7 @@
   .copy-rights {
     margin-top: var(--l-size);
   }
-  .our_vision__img{
+  .our_vision__img {
     width: 100%;
   }
 }
