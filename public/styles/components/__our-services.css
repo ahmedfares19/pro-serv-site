@@ -12,6 +12,8 @@
     border: none;
     padding: 0;
     max-width: 100px;
+    height: 450px;
+    max-height: 500px;
     background-color: #fff;
     /* border: 1px solid #eee; */
     border-radius: 4px;
@@ -46,15 +48,25 @@
 }
 
 .sercive-card__title {
-    font-size: var(--l-size);
+    font-size: 25px;
     text-align: center;
     font-family: var(--h-font);
+    display: block;
+    height: 60px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    /* background-color: khaki; */
 }
 .service-card__paragraph {
-    padding: 0 var(--s-size);
-    margin-bottom: var(--xl-size);
+    padding: 0 var(--xs-size);
+    /* margin-bottom: var(--xl-size); */
     font-size: var(--xs-size);
     /* font-weight: 200; */
+    display: block;
+    height: 120px;
+    /* background: #eee; */
     text-align: center;
     font-family: var(--b-font);
 }
