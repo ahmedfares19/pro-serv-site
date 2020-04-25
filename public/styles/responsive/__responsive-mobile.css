@@ -334,4 +334,7 @@
   .sticky .navbar-toggler{
     margin-right: 10px;
   }
+  .sticky .logo-link{
+    margin-left: 10px;
+  }
 }
