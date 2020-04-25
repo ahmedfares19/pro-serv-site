@@ -1,0 +1,79 @@
+.modal{
+    top: 25%;
+    left: 0%;
+ 
+}
+.modal-content{
+    width:400px;
+    height: 350px;
+    transform: translateX(20%);
+    padding: var(--xs-size);
+    padding-bottom: 0%;
+}
+.modal-title {
+  font-size: var(--m-size);
+  color: #d3593b;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -15%;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.modal-label {
+  font-size: var(--m-size);
+  font-family: var(--h-font);
+}
+
+.madal-input {
+  font-size: var(--m-size);
+  font-family: var(--b-font);
+}
+
+.modal-body{
+    margin-bottom: 0;
+    height: 50px;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.model-links{
+    list-style: none;
+ 
+    text-align: center;
+    padding: 0;
+}
+.model-links li {
+   
+    display: inline-block;
+}
+.model-links li a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-family: var(--b-font);
+    color:#FF8800;
+}
+
+.modal-btn{
+    font-size: var(--xs-size);
+    padding: 5px 25px;
+}
+.modal-submit{
+    color: #fff;
+    background-color: #d3593b;;
+}
+.modal-close{
+    color: #fff;
+    background-color:var(--dark-color)
+}

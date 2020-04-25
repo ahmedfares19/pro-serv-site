@@ -3,6 +3,7 @@
 @import './bass/__normalize.css';
 @import './bass/__bass.css';
 @import './bass/__loader.css';
+/* Main page */
 @import './components/__nav.css';
 @import './components/__carsoules.css';
 @import './components/__about-us.css';
@@ -16,8 +17,16 @@
 @import './components/__our_vision.css';
 @import './components/__footer.css';
 @import './components/__services-hero.css';
+
+/* Admin */
 @import './admin/__admin-login.css';
 @import './massenger/massanger-chat.css';
+
+/* Responsive */
 @import './responsive/__responsive-desktop.css';
 @import './responsive/__responsive-tablet.css';
-@import './responsive/__responsive-mobile.css'
+@import './responsive/__responsive-mobile.css';
+
+
+/* accounts */
+@import './components/__modals.css'

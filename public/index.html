@@ -121,7 +121,7 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link"  class="btn btn-primary" data-toggle="modal" data-target="#Login-model"  href="#">Login</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Ar</a>
@@ -566,6 +566,100 @@
         <h5>All rights resevered. Powered by the <a href="#">Professional Services</a></h5>
       </div>
     </footer>
+
+<div class="modal fade" id="Login-model" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img width="30px" src="./imgs/sm/logo.png"/>
+        <h5 class="modal-title" id="exampleModalLabel">Professional Services Login</h5>
+        
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="login-username" class="col-form-label modal-label">Username</label>
+            <input type="text" class="madal-input " id="login-username">
+          </div>
+          <div class="form-group">
+            <label for="login-password" class="col-form-label modal-label">Password</label>
+            <input type="password" class="madal-input" id="login-password"></input>
+          </div>
+        </form>
+        <ul class="model-links">
+          <li><a class="nav-link"  class="forget-password modal-link" data-toggle="modal" data-target="#Login-model"  href="#">Forget Password</a>
+          </li>
+          <li>  <a class="nav-link"  class="create-account modal-link" data-toggle="modal" data-target="#signup-model" class="close" data-dismiss="modal" aria-label="Close" href="#">Create account</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-btn  modal-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn modal-btn modal-submit">Log in</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="signup-model" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img width="30px" src="./imgs/sm/logo.png"/>
+        <h5 class="modal-title" id="exampleModalLabel">Professional Services Login</h5>
+        
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="login-username" class="col-form-label modal-label">Username</label>
+            <input type="text" class="madal-input " id="login-username">
+          </div>
+          <div class="form-group">
+            <label for="login-username" class="col-form-label modal-label">Username</label>
+            <input type="text" class="madal-input " id="login-username">
+          </div>
+          <div class="form-group">
+            <label for="login-username" class="col-form-label modal-label">Username</label>
+            <input type="text" class="madal-input " id="login-username">
+          </div>
+          <div class="form-group">
+            <label for="login-password" class="col-form-label modal-label">Password</label>
+            <input type="password" class="madal-input" id="login-password"></input>
+          </div>
+        </form>
+        <ul class="model-links">
+          <li><a class="nav-link"  class="forget-password modal-link" data-toggle="modal" data-target="#Login-model"  href="#">Forget Password</a>
+          </li>
+          <li>  <a class="nav-link"  class="create-account modal-link" data-toggle="modal" data-target="#Login-model" class="close" data-dismiss="modal" aria-label="Close" href="#">Have account</a></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn modal-btn  modal-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn modal-btn modal-submit">Log in</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Scripts start-->
     <script
