@@ -14,7 +14,7 @@
     right: 50px;
     cursor: pointer;
     border-radius: 10px;
-    overflow: hidden;
+    
 }
 
 #arrow-up{
@@ -25,7 +25,6 @@
 }
 
 .to-the-top-show{
-    /* background-color: teal; */
     bottom: 22px;
 }
 
@@ -39,7 +38,5 @@
     }
     100%{
         bottom: 8px;
-      
-        /* transform: scale(1.2); */
     }
 }
