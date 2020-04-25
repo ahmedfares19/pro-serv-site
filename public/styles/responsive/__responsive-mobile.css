@@ -41,6 +41,9 @@
     position: relative;
     transform: translateX(0%);
   }
+  .logo-link{
+    /* background -color: #fff; */
+  }
   .wrapper {
     width: 90%;
   }

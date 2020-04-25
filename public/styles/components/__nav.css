@@ -8,7 +8,7 @@
 }
 #navgation{
   position: relative;
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
 }
 
 ul.navbar-nav > li {
