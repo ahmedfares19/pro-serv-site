@@ -13,6 +13,8 @@
     z-index: 9999;
     right: 50px;
     cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 #arrow-up{
@@ -24,16 +26,20 @@
 
 .to-the-top-show{
     /* background-color: teal; */
-    bottom: 20px;
+    bottom: 22px;
 }
 
 @keyframes poping {
     0%{
-        bottom: -8px;
-
+        bottom: -22px;
+        opacity: 0;
+    }
+    60%{
+        opacity: 0.5;
     }
     100%{
         bottom: 8px;
+      
         /* transform: scale(1.2); */
     }
 }

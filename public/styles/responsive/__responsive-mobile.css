@@ -214,4 +214,13 @@
   .our_vision__img {
     width: 100%;
   }
+
+  .social-media-side-bar{
+  right: -8%;
+  }
+
+  .to-the-top > #arrow-up{
+    animation: poping 0.9s ease-in-out infinite backwards;
+}
+
 }
