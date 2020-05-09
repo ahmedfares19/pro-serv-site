@@ -125,7 +125,7 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a id="login-show" class="nav-link" >Login</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Ar</a>
@@ -654,10 +654,71 @@
   </div>
 </div>
 
+<div class="dim">
+  <div class="card-controller">
+    <i class="fas fa-times"></i>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner ">
+      <div class="proserv-login-modal flip-card-front">
+        <div class="proserv-modal-header">
+          <img width="30px" src="./imgs/sm/logo.png"/>
+          <span class="">Professional Services Proserv</span>
+        </div>
+        <div class="proserv-modal-body">
+          <h1>Login to your account</h1>
+          <h3>Email</h3>
+          <input type="email" placeholder="your email address" required >
+          <h3>Password</h3>
+          <input type="password" placeholder="your password" required >
+          <button value="Login">Log in</button>
+        </div>
+        <div class="proserv-modal-social-media-login">
+          <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+          <a href="#"> <i class="fab fa-google-plus-g"></i> Gmail</a>
+        </div>
+        <h1 class="proserv-create-account">Don't have an account?</h1> <a id="flip-card" class="create-new-account" >Create account</a>
+      </div>
+      <div class="proserv-login-modal flip-card-back">
+        <div class="proserv-modal-header">
+          <img width="30px" src="./imgs/sm/logo.png"/>
+          <span class="">Professional Services Proserv</span>
+        </div>
+        <div class="proserv-modal-body">
+          <h1>Create a new account</h1>
+          <h3>Email</h3>
+          <input type="email" placeholder="your email address" required >
+          <h3>Full Name</h3>
+          <input type="text" placeholder="your full name" required >
+          <h3>Password</h3>
+          <input type="password" placeholder="your password" required >
+          <h3>confirm Password</h3>
+          <input type="password" placeholder="your password" required >
+          <button value="Login">Sign Up</button>
+        </div>
+        <h1 class="proserv-create-account">have an account?</h1> <a id="flip-card-back"  class="create-new-account">Log in</a>
+      </div>
 
+    </div>
+    
+  </div>
+  
 
+  <!-- <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>John Doe</h1>
+        <p>Architect & Engineer</p>
+        <p>We love that guy</p>
+      </div>
+    </div>
+  </div> -->
 
-
+</div>
 
 
 
@@ -729,6 +790,8 @@
       src="https://kit.fontawesome.com/ae234012ff.js"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/components/account.spinner.js"></script>
     <!-- Scripts end -->
   </body>
 </html>
