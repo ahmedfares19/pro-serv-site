@@ -1,6 +1,7 @@
 const express = require("express");
 const pageRouter = require("./src/routes/services-router");
 const blogRouter = require("./src/routes/blog-router");
+const localiztionRout = require("./src/routes/localization.router")
 // const adminRouter = require("./src/routes/admin-router");
 // const appLoger = require("./src/utils/app-logger");
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 const path = require('path')
 app.use(pageRouter);
 app.use(blogRouter);
+app.use('/arabic',localiztionRout);
 // app.use(adminRouter);
 // require("./src/db/mongoose");
 var bodyParser = require('body-parser');
