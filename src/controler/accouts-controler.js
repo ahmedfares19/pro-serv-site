@@ -1,4 +1,4 @@
-const accountsDAO = require("../DAO/accounts-DAO");
+/* const accountsDAO = require("../DAO/accounts-DAO");
 const userAccount = new Object();
 
 userAccount.userSignUp = (data) => {
@@ -43,3 +43,4 @@ userAccount.userLogIn = (data) => {
 };
 
 module.exports = userAccount;
+ */
