@@ -111,7 +111,7 @@
                 <li><a href="proserv-training-academy">Proserv Training Academy</a></li>
                 <li><a href="hr-systems-procedures">HR Systems & Procedures</a></li>
                 <li><a href="legal-service">Legal Services</a></li>
-                <li><a href="monitors">Monitors</a></li>
+                <li><a href="accounting-services">Monitors</a></li>
                 <li><a href="printers">Printers</a></li>
               </ul>
             </li>
@@ -127,8 +127,11 @@
             <li class="nav-item">
               <a id="login-show" class="nav-link" >Login</a>
             </li>
+            <!-- <li class="nav-item">
+              <a id="logout" class="nav-link" >logout</a>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Ar</a>
+              <a class="nav-link arabicFont"  href="/arabic">ع</a>
             </li>
           </ul>
           </div>
@@ -567,7 +570,7 @@
               <li><a href="#">Login</a></li>
               <li><a href="blog">Blog</a></li>
               <li><a href="#">Contacts</a></li>
-              <li><a href="#">Ar</a></li>
+              <li><a href="/arabic">Ar</a></li>
             </ul>
           </div>
           
@@ -580,79 +583,7 @@
       </div>
     </footer>
 
-<div class="modal fade" id="Login-model" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img width="30px" src="./imgs/sm/logo.png"/>
-        <h5 class="modal-title" id="exampleModalLabel">Professional Services Login</h5>
-        
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="login-username" class="col-form-label modal-label">Username</label>
-            <input type="text" class="madal-input " id="login-username">
-          </div>
-          <div class="form-group">
-            <label for="login-password" class="col-form-label modal-label">Password</label>
-            <input type="password" class="madal-input" id="login-password"></input>
-          </div>
-        </form>
-        <ul class="model-links">
-          <li><a class="nav-link"  class="forget-password modal-link" data-toggle="modal" data-target="#Login-model"  href="#">Forget Password</a>
-          </li>
-          <li>  <a class="nav-link"  class="create-account modal-link" data-toggle="modal" data-target="#signup-model" class="close" data-dismiss="modal" aria-label="Close" href="#">Create account</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn modal-btn  modal-close" data-dismiss="modal">Close</button>
-        <button type="button" class="btn modal-btn modal-submit">Log in</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="modal fade" id="signup-model" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img width="30px" src="./imgs/sm/logo.png"/>
-        <h5 class="modal-title" id="exampleModalLabel">Professional Services Login</h5>
-        
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="login-username" class="col-form-label modal-label">Username</label>
-            <input type="text" class="madal-input " id="login-username">
-          </div>
-          <div class="form-group">
-            <label for="login-username" class="col-form-label modal-label">Username</label>
-            <input type="text" class="madal-input " id="login-username">
-          </div>
-          <div class="form-group">
-            <label for="login-username" class="col-form-label modal-label">Username</label>
-            <input type="text" class="madal-input " id="login-username">
-          </div>
-          <div class="form-group">
-            <label for="login-password" class="col-form-label modal-label">Password</label>
-            <input type="password" class="madal-input" id="login-password"></input>
-          </div>
-        </form>
-        <ul class="model-links">
-          <li><a class="nav-link"  class="forget-password modal-link" data-toggle="modal" data-target="#Login-model"  href="#">Forget Password</a>
-          </li>
-          <li>  <a class="nav-link"  class="create-account modal-link" data-toggle="modal" data-target="#Login-model" class="close" data-dismiss="modal" aria-label="Close" href="#">Have account</a></li>
-        </ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn modal-btn  modal-close" data-dismiss="modal">Close</button>
-        <button type="button" class="btn modal-btn modal-submit">Log in</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="dim">
   <div class="card-controller">
@@ -671,10 +602,10 @@
         <div class="proserv-modal-body">
           <h1>Login to your account</h1>
           <h3>Email</h3>
-          <input type="email" placeholder="your email address" required >
+          <input type="email"  id="login-email" placeholder="your email address" required >
           <h3>Password</h3>
-          <input type="password" placeholder="your password" required >
-          <button value="Login">Log in</button>
+          <input type="password"  id="login-password" placeholder="your password"  required >
+          <button id="account-login" value="Login">Log in</button>
         </div>
         <div class="proserv-modal-social-media-login">
           <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
@@ -691,14 +622,14 @@
         <div class="proserv-modal-body">
           <h1>Create a new account</h1>
           <h3>Email</h3>
-          <input type="email" placeholder="your email address" required >
+          <input type="email" id="signUp-email" placeholder="your email address"  >
           <h3>Full Name</h3>
-          <input type="text" placeholder="your full name" required >
+          <input type="text" id="signUp-fullName" placeholder="your full name"  >
           <h3>Password</h3>
-          <input type="password" placeholder="your password" required >
+          <input type="password" id="signUp-password" placeholder="your password"  >
           <h3>confirm Password</h3>
-          <input type="password" placeholder="your password" required >
-          <button value="Login">Sign Up</button>
+          <input type="password" id="signUp-re-password" placeholder="your password"  >
+          <button id="signUpBtn" value="Login">Sign Up</button>
         </div>
         <h1 class="proserv-create-account">have an account?</h1> <a id="flip-card-back"  class="create-new-account">Log in</a>
       </div>
@@ -739,6 +670,9 @@
 
 
     <!-- Scripts start-->
+    <script src="./js/bass/sendRequest.js"></script>
+    <script src="./js/bass/urls.js"></script>
+    <script src="./js/components/login.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="

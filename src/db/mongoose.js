@@ -1,4 +1,4 @@
-/* const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const env = require("../../env");
 const DB_NAME = env.DB_NAME;
 const PORT = env.DB_PORT;
@@ -13,23 +13,22 @@ const connection = () => {
       useUnifiedTopology: true,
     });
     mongoose.connection.on("connected", function () {
-      appLoger.debug(
+      console.log(
         `connected to database ${HOST_IP}:${PORT} database name ${DB_NAME}`,
         "info",
         `connected to database ${HOST_IP}:${PORT} database name ${DB_NAME}`
       );
     });
     mongoose.connection.on("error", function (err) {
-      appLoger.debug(
+      console.log(
         `failed to connect database >>  database name ${DB_NAME} \n error : ${err}`,
         "error",
         `failed to connect database >>  database name ${DB_NAME} \n error : ${err}`
       );
     });
   } catch (error) {
-    appLoger.debug(error, "error", error.message);
+    console.log(error, "error", error.message);
   }
 };
 
 connection();
- */

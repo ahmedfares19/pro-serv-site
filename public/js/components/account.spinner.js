@@ -1,12 +1,5 @@
-window.onload = function () {
-  if (window.jQuery) {
-    // jQuery is loaded
-    console.log("Yeah!");
-  } else {
-    // jQuery is not loaded
-    console.log("Doesn't Work");
-  }
-};
+
+
 
 $("#flip-card-back").click(() => {
   flip();
@@ -76,3 +69,6 @@ $(".card-controller i").click(() => {
     $(".dim").css("display", "none");
   }, 650);
 });
+
+
+

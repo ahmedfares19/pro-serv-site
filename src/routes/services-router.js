@@ -53,12 +53,12 @@ const legalService = (req , res) => {
         // appLogger.debug(err ,'error',[err , "legalService"])
     }
 }
-const monitors = (req , res) => {
+const accountingServices = (req , res) => {
     try {
         // appLogger.debug("monitors called" ,'info' , "monitors called")
-        res.status(200).render(path.join('en','services','monitors'))
+        res.status(200).render(path.join('en','services','accounting-services'))
     } catch(err) {
-        // appLogger.debug(err ,'error',[err , "monitors"])
+        // appLogger.debug(err ,'error',[err , "accounting-services"])
     }
 }
 const printers = (req , res) => {
@@ -86,7 +86,7 @@ router.get('/outsourcing' , outsourcing)
 router.get('/proserv-training-academy' , proServTrainingAcademy)
 router.get('/hr-systems-procedures' , hrSystemsProcedures)
 router.get('/legal-service' , legalService)
-router.get('/monitors' , monitors)
+router.get('/accounting-services' , accountingServices)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
 

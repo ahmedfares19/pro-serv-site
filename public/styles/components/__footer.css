@@ -25,6 +25,7 @@ footer {
     font-size: var(--xs-size);
     font-family: var(--b-font);
     width: 400px;
+    text-align: justify;
 }
 .footer__title {
     color: var( --orange-color);
@@ -44,6 +45,7 @@ footer {
 }
 .copy-rights {
     letter-spacing: 1px;
+    margin: 0px 300px;
     text-align: center;
     color: var(--dark-color);
     margin-top: var(--mr-size);

@@ -22,6 +22,7 @@ a , button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: justify;
 }
 
 .section__img
@@ -47,4 +48,9 @@ a , button {
 
 .full-width{
     width: 100%;
+}
+.arabicFont{
+    font-size: var(--s-size);
+    font-weight: 600;
+    /* font-family: ; */
 }

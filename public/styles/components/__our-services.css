@@ -67,7 +67,7 @@
     display: block;
     height: 120px;
     /* background: #eee; */
-    text-align: center;
+    text-align: justify;
     font-family: var(--b-font);
 }
 .service-card__btn {
