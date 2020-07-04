@@ -17,7 +17,7 @@ app.use(blogRouter);
 app.use(adminRouter);
 app.use(accountsRouter);
 app.use('/arabic',localizationRouter)
-require("./src/db/mongoose");
+// require("./src/db/mongoose");
 
 
 app.engine("html", require("ejs").renderFile);
