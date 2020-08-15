@@ -1,0 +1,12 @@
+.pdf{
+    width: 350px;
+    height: 100vh;
+}
+
+
+.pdfs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

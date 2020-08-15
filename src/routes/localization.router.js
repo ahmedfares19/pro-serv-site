@@ -99,6 +99,64 @@ const recruitment = (req , res) => {
     }
 }
 
+const lawOne = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-one'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const lawTwo = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-two'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const lawthree = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-three'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const lawFour = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-four'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const lawFive = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-five'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const lawSix = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-six'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const lawSeven = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('ar','laws','law-seven'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+
+
 
 router.get('/social-insurence-service' , serveSocialInsurenceService)
 router.get('/manpower-and-foreign-labor-affairs' , serveManPowerAndForeignLaborService)
@@ -110,4 +168,15 @@ router.get('/accounting-services' , accountingServices)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
 router.get('/' , changeToArabicVersion)
+router.get('/printers' , printers)
+router.get('/printers' , printers)
+router.get('/printers' , printers)
+/* laws routers  */
+router.get('/law-one' , lawOne)
+router.get('/law-two' , lawTwo)
+router.get('/law-three' , lawthree)
+router.get('/law-four' , lawFour)
+router.get('/law-five' , lawFive)
+router.get('/law-six' , lawSix)
+router.get('/law-seven' , lawSeven)
 module.exports = router;

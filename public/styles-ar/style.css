@@ -16,7 +16,7 @@
 @import './components/__contact.css';
 @import './components/__our_vision.css';
 @import './components/__footer.css';
-@import './components/__services-hero.css';
+@import './components/__pdf.css';
 
 /* Admin */
 @import './admin/__admin-login.css';
@@ -27,6 +27,9 @@
 @import './responsive/__responsive-tablet.css';
 @import './responsive/__responsive-mobile.css';
 
+/* other screens */
+@import './components/__services-hero.css';
+@import './components/__laws.css';
 
 /* accounts */
 @import './components/__modals.css';

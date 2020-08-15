@@ -28,7 +28,9 @@ ul.navbar-nav > li {
   /* text-shadow: 2px 2px 15px rgba(211, 89, 59, 0.11); */
   color: var(--orange-color);
 }
-
+ul li ul.laws{
+  width: 500px !important;
+}
 ul li ul.dp {
   width: 400px;
   padding: 0;
@@ -54,6 +56,7 @@ ul li ul.dp a {
   transition: transform 0.4s;
   transform: scale(1);
   color: var(--dark-color);
+font-family: var(--ah-font);
 }
 ul li ul.dp li {
   user-select: none;
