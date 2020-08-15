@@ -8,6 +8,14 @@
   .laws__navigator{
     display: none;
   }
+  .law_body{
+    width: 95%;
+    
+  }
+  .laws__containt{
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
   .navbar {
     margin: 0;
     padding: 0px;
