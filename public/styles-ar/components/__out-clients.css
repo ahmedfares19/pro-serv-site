@@ -7,7 +7,7 @@
 }
 .our-clients__title__header {
     font-size: var(--xl-size);
-    font-family: var(--ah-font);
+    font-family: var(--h-font);
     margin-bottom: 10px;
     color: var(--darker-color);
     margin-top: var(--xs-size);
@@ -17,7 +17,7 @@
 }
 .out-clients__title__sub-header{
     font-size: var(--m-size);
-    font-family: var(--ah-font);
+    font-family: var(--h-font);
     margin-bottom: 10px;
     color: var(--dark-color);
     letter-spacing: 2px;
@@ -25,7 +25,7 @@
 }
 .our-clients{
     width: 100%;
-    background-image:  linear-gradient(45deg , rgba(235, 182, 182, 0.747) , rgba(255, 242, 242, 0.849)), url('../../imgs/lg/clients/bg-clients.jpg');
+    background-image:  linear-gradient(45deg , rgba(179, 179, 179, 0.726), rgba(184, 184, 184, 0.726)), url('../../imgs/lg/clients/bg-clients.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;

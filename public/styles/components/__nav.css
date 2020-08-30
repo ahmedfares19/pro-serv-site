@@ -1,6 +1,6 @@
 .navbar {
   font-size: var(--s-size);
-  color: var(--dark-color);
+  color: var(--darker-color);
   width: 90%;
   margin: auto;
   font-family: var(--b-font);
@@ -19,11 +19,11 @@ ul.navbar-nav > li {
   transition: transform 0.4s;
   transition: transform 0.4s;
   transform: scale(1);
-  color: var(--dark-color);
+  color: var(--darker-color);
 }
 
 #navgation > li:hover > a {
-  transform: scale(1.08);
+  /* transform: scale(1.08); */
   /* text-shadow: 2px 2px 15px rgba(211, 89, 59, 0.11); */
   color: var(--orange-color);
 }
