@@ -1,38 +1,84 @@
-<ul id="navgation" class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Our Services</a>
-                <ul class="dp">
-                  <li><a href="#">Social Insurance</a></li>
-                  <li><a href="#">Manpower and Foreign Labor Affairs</a></li>
-                  <li><a href="#">Outsourcing</a></li>
-                  <li><a href="#">Recruitment</a></li>
-                  <li><a href="#">Proserv Training Academy</a></li>
-                  <li><a href="#">HR Systems & Procedures</a></li>
-                  <li><a href="#">Legal Services</a></li>
-                  <li><a href="#">Monitors</a></li>
-                  <li><a href="#">Printers</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ع</a>
-              </li>
-            </ul>
+ <div id="carsoules" class="wrapper">
+        <div
+          id="slider-one"
+          class="carousel slide animated  fadeInLeft "
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carsoule_card">
+                <h1 class="slider-one__title">Social Insurance</h1>
+                <p class="slider-one__paragraph">
+                  Proserv provides in depth consultations and several
+                  operational services that secures your business against the
+                  rapid variances in social insurance law applications. While
+                  having an eye on both how your business conforms to the
+                </p>
+                <a class="slider-one__btn" href="social-insurence-service">Read More</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carsoule_card">
+                <h1 class="slider-one__title">
+                  Manpower and Foreign Labor Affairs
+                </h1>
+                <p class="slider-one__paragraph">
+                  Acquiring a foreign talent? No problem with Proserv focused
+                  solutions designed to finalize all procedures related to
+                  foreign recruitment according to the local laws. Expanding
+                  your search for qualified employees to include international
+                </p>
+                <a class="slider-one__btn" href="manpower-and-foreign-labor-affairs">Read More</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carsoule_card">
+                <h1 class="slider-one__title">Outsourcing</h1>
+                <p class="slider-one__paragraph">
+                  Proserv’s unique outsourcing model separates us from
+                  traditional outsourcing agencies in Egypt. We will enable your
+                  business to enjoy the full benefits of outsourcing without
+                  reducing control and transparency over your extended team.
+                </p>
+                <a class="slider-one__btn" href="outsourcing">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          id="slider-two"
+          class="carousel slide  animated  fadeInRight"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./imgs/lg/hero/person2.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imgs/lg/hero/person4.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imgs/lg/hero/person1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./imgs/lg/hero/person3.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>

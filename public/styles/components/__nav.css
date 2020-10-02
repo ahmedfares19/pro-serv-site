@@ -1,10 +1,11 @@
 .navbar {
-  font-size: var(--s-size);
+  font-size: var(--m-size);
   color: var(--darker-color);
   width: 90%;
   margin: auto;
-  font-family: var(--b-font);
+  font-family: var(--h-font);
   z-index: 58888;
+  transition: all 0.4s;
 }
 #navgation{
   position: relative;
@@ -19,6 +20,7 @@ ul.navbar-nav > li {
   transition: transform 0.4s;
   transition: transform 0.4s;
   transform: scale(1);
+  font-size: var(--m-size);
   color: var(--darker-color);
 }
 
@@ -61,7 +63,7 @@ ul li ul.dp li {
   border-bottom: 1px solid rgba(136, 136, 136, 0.103);
 }
 ul li ul.dp li:hover > a {
-  transform: scale(1.08);
+  /* transform: scale(1.08); */
   /* text-shadow: 2px 2px 15px rgba(211, 89, 59, 0.11); */
   color: var(--orange-color);
 }

@@ -3,9 +3,9 @@
   .wrapper {
     width: 80%;
   }
-  #hero {
+  /* #hero {
     height: 35vh;
-  }
+  } */
   #slider-one .carousel-inner {
     padding-top: 60px;
   }
@@ -25,7 +25,7 @@
     max-width: 400px;
     width: 150px;
     min-height: 325px;
-    transform: translateY(-60%);
+    /* transform: translateY(-60%); */
   }
   .contacts {
     flex-direction: row;

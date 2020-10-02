@@ -68,6 +68,14 @@
     background-position: top;
   }
 
+  .carousel-item .img{
+    display: none;
+  }
+  .containt{
+    width: 100%;
+    /* transform: translateY(50%); */
+    margin-top: 80px;
+  }
   #slider-two {
     display: none;
   }

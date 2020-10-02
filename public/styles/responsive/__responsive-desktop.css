@@ -24,7 +24,7 @@
     min-height: 450px;
     margin: auto;
     position: relative;
-    transform: translateY(-80%);
+    transform: translateY(-50%);
   
   }
   #navgation{
@@ -35,3 +35,24 @@
 }
 
 
+@media only screen and (max-width: 1300px) {
+ #carsoules{
+   bottom: 0 !important;
+   background-color: #fff !important; 
+ }
+ #slider-two img {
+  /* max-height: 00px; */
+  max-width: 300px;
+  width: 250px;
+  
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+.navbar {
+  font-size: var(--s-size);
+}
+.carousel-inner{
+  width: 90%;
+  margin: auto;
+}
+}

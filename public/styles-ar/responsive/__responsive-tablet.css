@@ -3,9 +3,9 @@
   .wrapper {
     width: 80%;
   }
-  #hero {
+  /* #hero {
     height: 35vh;
-  }
+  } */
   #slider-one .carousel-inner {
     padding-top: 60px;
   }

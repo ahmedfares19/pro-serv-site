@@ -74,15 +74,17 @@
     right: 20px;
   }
   #hero {
-    height: 420px;
+    /* height: 420px; */
     background-image: url("../../imgs/lg/hero/hero.jpg");
     background-size: cover;
     background-position: top;
   }
 
-  #slider-two {
+  .img{
     display: none;
+    background-color: #fff;
   }
+
   #slider-one {
     width: 100%;
     padding: 0;
