@@ -1,0 +1,56 @@
+html  {
+    font-size: 62.5%;
+    color: var(--dark-color);
+    font-family: var(--b-font);
+    margin: 0;
+    padding: 0;
+}
+a , button {
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.section {
+    margin-top: var(--mr-size);
+    /* margin-bottom: var(--xl-size); */
+    min-height: 250px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+
+.section__img
+{
+   width: 40%;
+
+}
+.section__data {
+    width: 50%;
+}
+
+.section__data__title {
+    font-size: var(--xl-size);
+    font-family: var(--h-font);
+    margin-bottom: 10px;
+    color: var(--darker-color);
+    text-transform: capitalize;
+}
+
+.section__data__paragraph {
+    font-size: var(--s-size);
+}
+
+.full-width{
+    width: 100%;
+}
+.arabicFont{
+    font-size: var(--s-size);
+    font-weight: 600;
+    /* font-family: ; */
+}

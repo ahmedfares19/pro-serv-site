@@ -1,0 +1,33 @@
+@import './bass/__settings.css';
+@import './bass/__animate.css';
+@import './bass/__normalize.css';
+@import './bass/__bass.css';
+@import './bass/__loader.css';
+/* Main page */
+@import './components/__nav.css';
+@import './components/__carsoules.css';
+@import './components/__about-us.css';
+@import './components/__out-clients.css';
+@import './components/__our-services.css';
+@import './components/__GM-word.css'; 
+@import './components/_social-media-side-bar.css';
+@import './components/_to-the-top.css';
+@import './components/__messanger-client.css';
+@import './components/__contact.css';
+@import './components/__our_vision.css';
+@import './components/__footer.css';
+@import './components/__services-hero.css';
+@import './components/__pdf.css';
+/* Admin */
+@import './admin/__admin-login.css';
+@import './massenger/massanger-chat.css';
+
+/* Responsive */
+@import './responsive/__responsive-desktop.css';
+@import './responsive/__responsive-tablet.css';
+@import './responsive/__responsive-mobile.css';
+
+
+/* accounts */
+@import './components/__modals.css';
+@import './components/__proserv-modals.css'

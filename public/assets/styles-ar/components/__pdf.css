@@ -1,0 +1,17 @@
+.pdf{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.test{
+    color: red;
+}
+
+.pdfs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

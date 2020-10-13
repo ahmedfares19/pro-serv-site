@@ -1,0 +1,42 @@
+.to-the-top{
+    background-color:rgb(241, 82, 34);
+    color: #fff;
+    position: fixed;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    /* border-radius: 50%; */
+    bottom: -200px;
+    transition: bottom 0.6s;
+    z-index: 9999;
+    right: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+#arrow-up{
+    position: relative;
+}
+.to-the-top:hover > #arrow-up{
+    animation: poping 0.7s ease-in-out infinite backwards;
+}
+
+.to-the-top-show{
+    bottom: 22px;
+}
+
+@keyframes poping {
+    0%{
+        bottom: -22px;
+        opacity: 0;
+    }
+    60%{
+        opacity: 0.5;
+    }
+    100%{
+        bottom: 8px;
+    }
+}

@@ -78,8 +78,22 @@ const recruitment = (req , res) => {
         // appLogger.debug(err ,'error',[err , "recruitment"])
     }
 }
-
-
+const aboutUs = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('en','proServ','about-us'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
+const contactUs = (req , res) => {
+    try {
+        // appLogger.debug("recruitment called" ,'info' , "recruitment called")
+        res.status(200).render(path.join('en','proServ','about-us'))
+    } catch(err) {
+        // appLogger.debug(err ,'error',[err , "recruitment"])
+    }
+}
 router.get('/social-insurence-service' , serveSocialInsurenceService)
 router.get('/manpower-and-foreign-labor-affairs' , serveManPowerAndForeignLaborService)
 router.get('/outsourcing' , outsourcing)
@@ -89,6 +103,8 @@ router.get('/legal-service' , legalService)
 router.get('/accounting-services' , accountingServices)
 router.get('/recruitment' , recruitment)
 router.get('/printers' , printers)
+router.get('/about-us' , aboutUs)
+router.get('/contact-us' , contactUs)
 
 
 module.exports = router;

@@ -1,0 +1,78 @@
+/* @import '../bass/__settings.css'; */
+#hero {
+  height: 80vh;
+ 
+  max-height: 700px;
+  background-image: url("../../imgs/lg/hero/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+#heroCarSoule{
+  width: 100%;
+  height: calc(100% - 70px);
+  /* background-color: rgb(199, 13, 13); */
+}
+.carousel-inner{
+  width: 70%;
+  margin: auto;
+}
+
+.img{
+  background-color: var(--orange-color);
+  /* background: radial-gradient(circle, rgba(110, 110, 110, 0.993) 0%, rgba(187, 32, 32, 0) 100%); */
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+  margin-top: 30px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.carousel-control-prev{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.24) 0%, rgba(0,0,0,0) 100%);
+
+}
+
+.carousel-control-next{
+  background: linear-gradient(-90deg, rgba(0,0,0,0.24) 0%, rgba(0,0,0,0) 100%);
+}
+.carousel-indicators li{
+  color: aqua;
+background-color: rgb(114, 114, 114);
+}
+.containt{
+  width: 50%;
+}
+.slider-one__title{
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  /* color:  var(--orange-color);; */
+  font-family: var(--h-font);
+}
+.slider-one__paragraph{
+  font-size: 20px;
+  /* font-family: var(--b-font); */
+}
+.slider-one__btn {
+  display: block;
+  text-align: center;
+  padding-top: 7px;
+  width: 170px;
+  height: 40px;
+  background-color:#ff8800;
+  font-size: var(--m-size);
+  color: white;
+  font-family: var(--b-font), Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.2s;
+  margin: 50px 0 20px 0;
+}
+.slider-one__btn:hover {
+  background-color: var(--orange-color);
+  color: white;
+  text-decoration: none;
+  /* box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.284); */
+}

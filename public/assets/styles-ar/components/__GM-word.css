@@ -1,0 +1,33 @@
+.gm-word{
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gm-word__body{
+    width: 80%;
+}
+.gm-word__title{
+    font-size: var(--xl-size);
+    font-family: var(--ah-font);
+    margin: 0;
+    text-align: right;
+    margin-bottom: var(--m-size);
+    
+}
+
+.gm-word__paragraph {
+    text-align: right;
+    font-size: var(--xs-size);
+    font-family: var(--ah-font);
+    width: 80%;
+    float: right;
+    text-align: justify;
+    direction:rtl;
+    /* line-height: var(--l-size); */
+}
+
+.gm-word__img{
+    float: right;
+   width: 50%;
+}

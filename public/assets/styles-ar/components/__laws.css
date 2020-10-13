@@ -1,0 +1,98 @@
+.laws {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: var(--xxl-size);
+  font-family: var(--ah-font);
+  direction: rtl;
+  width: 90%;
+  margin: auto;
+}
+.laws__navigator {
+    /* background-color: aqua; */
+  position: relative;
+  width: 22%;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  /* background-color: rgba(255, 248, 248, 0.4); */
+  overflow: hidden;
+  /* border-bottom: 1px solid rgb(201, 201, 201); */
+}
+.laws__navigator__list {
+  direction: rtl;
+  margin: 0 auto;
+  border-radius: 15px;
+  max-width: 350px;
+  padding-right: 0 !important;
+  list-style: none;
+  position: relative;
+  box-shadow: 0 14px 15px rgba(63, 63, 63, 0.25),
+    0 10px 10px rgba(46, 46, 46, 0.103);
+
+  color: var(--offline-color);
+ overflow: hidden;
+  transition: 0.8s all ease-in-out;
+}
+.laws__navigator__list h2{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    background-color:  var(--orange-color);
+    padding: var(--s-size);
+    font-size: var(--m-size);
+    user-select: none;
+    /* padding-top:  var(--s-size); */
+}
+.laws__navigator__list li {
+  user-select: none;
+    /* border-radius: 15px; */
+    text-align: center;
+  padding: 4px 4px;
+  /* color: #fff; */
+  color: var(--offline-color);
+  color: var(--orange-color);
+  font-family: var(--ah-font);
+  font-size: var(--s-size);
+  cursor: pointer;
+  transition: 0.8s transform;
+  /* transition: 0.4s  box-shadow; */
+  /* background-color: aqua; */
+}
+.laws__navigator__list li:hover {
+  background-color: var(--orange-color);
+  color: white;
+  font-weight: 800;
+  /* box-shadow: 0 5px 8px rgb(163, 162, 162); */
+  transform: scaleX(1.09);
+}
+.laws__containt {
+  width: 70%;
+  /* direction: rtl; */
+  text-align: right;
+  padding-left: 50px;
+}
+.law_body {
+  margin-bottom: var(--mr-size);
+}
+.point_title {
+  font-size: var(--xl-size);
+  padding-bottom: 20px;
+  color: var(--orange-color);
+}
+
+.law_body .point_body {
+  /* color: red !important; */
+  font-size: var(--s-size) !important;
+  word-wrap: break-word;
+  color: var(--dark-color);
+  line-height: 3.5rem;
+}
+.body_bold {
+  color: var(--darker-color);
+  /* margin-top: var(--s-size); */
+  font-size: var(--m-size);
+  font-weight: 500;
+  text-align: right;
+}
+.body_point{
+    /* --green-color */
+    color: var(--orange-color);
+}

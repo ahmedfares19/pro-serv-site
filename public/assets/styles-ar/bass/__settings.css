@@ -1,0 +1,51 @@
+/*  English fonts */
+@import url("https://fonts.googleapis.com/css?family=Barlow|Bitter|Rubik&display=swap");
+/* Arabic fonts */
+@import url("https://fonts.googleapis.com/css?family=Almarai|Lateef&display=swap");
+/* variables  */
+:root {
+  /* sizes  */
+  --xs-size: 1.4rem;
+  --s-size: 1.6rem;
+  --m-size: 2rem;
+  --l-size: 2.8rem;
+  --xl-size: 3.8rem;
+  --xxl-size:5rem;
+  --mr-size:12rem;
+  /* *********  fonts  ********/
+  /* Englsish */
+  --h-font:'Barlow';
+  --b-font:'Rubik';
+  --fancy-font:'Bitter';
+  /* Arabic */
+  --ah-font:'Almarai';
+  --ab-font:'Lateef';
+
+  /* Colors */
+  --dark-color:#595857;
+  --darker-color:#272727;
+  --green-color:#5BD48F;
+  --red-color:#FF0000;
+  --orange-color:#FF8800;
+  --chat-color:#ABA2FD;
+  --active-color:#00FF5D;
+  --offline-color:#BBBFBD;
+
+}
+
+/* 
+
+    normal 18
+    sub normal 16
+    so somall 14
+    h1 38
+    h2 28
+    secondary 14
+
+    barlow headers 
+    rubic body
+    bitter fanct
+
+    almarai headers
+    lateef body
+*/
